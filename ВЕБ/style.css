@@ -1,0 +1,79 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#about-me {
+    text-align: center;
+    margin: 50px;
+}
+
+/* Контейнер для фотографий */
+.photo-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Пробел между фотографиями */
+    flex-wrap: wrap; /* Если не помещаются, переносятся на новую строку */
+}
+
+.photo-item {
+    text-align: center; /* Выравнивание текста под фотографией */
+}
+
+/* Фотография профиля */
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #ddd;
+}
+
+/* Фотографии учеников */
+.student-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #ddd;
+}
+
+/* Подписи под фотографиями */
+figcaption {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Стилизация ссылок */
+a {
+    display: block; /* Делаем ссылку блочным элементом */
+    margin-top: 5px;
+    color: #4CAF50; /* Цвет ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold; /* Жирный шрифт для ссылки */
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+    color: #333; /* Темный цвет при наведении */
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
